@@ -5,6 +5,7 @@ import React from "react";
 
 const UserLinks = () => {
   const { data, status } = useSession();
+
   return (
     <div>
       {status === "authenticated" ? (
